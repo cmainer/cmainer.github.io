@@ -6,6 +6,9 @@ body {
   margin: 0;
   text-align: center; }
 
+img {
+  width: 200px; }
+
 .center-content {
   margin: 0 auto 0 auto;
   width: 100%;
@@ -21,7 +24,7 @@ body {
 .center-content.show {
   opacity: 1; }
 
-h1, h2, h3 {
+h1, h2, h3, img {
   -webkit-animation-name: fadeInDown;
           animation-name: fadeInDown;
   -webkit-animation-duration: 2s;
@@ -417,7 +420,13 @@ p, a {
 
 @media only screen and (max-width: 500px) {
   .text-wrapper {
-    padding: 0 20px; } }
+    padding: 0 20px; }
+  img {
+    width: 100px; }
+  h2 {
+    font-size: 18px; }
+  h3 {
+    font-size: 14px; } }
 
 p {
   font-size: 18px;
